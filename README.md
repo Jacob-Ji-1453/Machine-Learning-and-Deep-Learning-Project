@@ -1,4 +1,4 @@
-# Machine Learning and Deep Learning Projects
+# Machine Learning and Deep Learning Projects (Updating)
 
 I will use this repository to record some completed self-taught projects of myself. 
 
