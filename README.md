@@ -1,6 +1,6 @@
 # Machine Learning and Deep Learning Projects (Updating)
 
-I will use this repository to record some completed self-taught projects of myself. 
+I will use this repository to record some self-taught projects conducted by myself. 
 
 Finally, I have found *the hall of tortured souls*, where tormented sprits are everywhere.\
 Fortunately, sooner or later I be one of them, embarking a one-way trip to that place and becoming a new *tortured soul*.\
