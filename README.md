@@ -6,7 +6,10 @@ Finally, I have found *the hall of tortured souls*, where tormented sprits are e
 Fortunately, sooner or later I will be one of them, embarking a one-way trip to that place and becoming a new *tortured soul*.\
 (https://spinpasta.fandom.com/wiki/Hall_of_Tortured_Souls and https://www.youtube.com/watch?v=WGqD-J_pRvs)
 
-## Table of Content
+## Table of Content:
+- Breast Cancer Classification
+- Fashion Class Classification
+
 
 ## 1. Breast Cancer Classification
 
@@ -26,4 +29,4 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 
 ### 8. Conclusion:
 
-## 2. fashion class classification
+## 2. Fashion Class Classification
