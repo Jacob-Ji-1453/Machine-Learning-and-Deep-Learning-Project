@@ -7,4 +7,21 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 (https://spinpasta.fandom.com/wiki/Hall_of_Tortured_Souls and https://www.youtube.com/watch?v=WGqD-J_pRvs)
 
 ## 1. Breast Cancer Classification
-### Tasks:
+
+### 1. Introduction:
+
+### 2. Task:
+
+### 3. Preprocess:
+
+### 4. Data Visualization:
+
+### 5. Model Tranining:
+
+### 6. Model Evaluation:
+
+### 7. Model Improvement:
+
+### 8. Conclusion:
+
+## 2. fashion class classification
