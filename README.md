@@ -16,10 +16,10 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 ### 1. Introduction:
   - Dataset is extracted and be well-processed from tumor images, generating attributes (e.g. cell radius, cell smoothness). 
   - The task is classifying the target tumor is **malignant or benign**, by inputing instances with **30 attributes**.
-  - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or it can be accessed from sklearn. 
+  - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or be accessed from sklearn. 
 
 ### 2. Preprocess:
-  - The size of dataset is small (**569 instances total**) and there is no missing value. As a warm-up project, this step is skipped.
+  - The size of dataset is small (**569 instances in total**) and there is no missing value. As a warm-up project, this step is skipped.
   
 ### 3. Data Visualization:
   - The dataset is visualized by pairplot and correlation matrix.
