@@ -11,22 +11,38 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 - Fashion Class Classification
 
 
-## 1. Breast Cancer Classification
+## 1. Breast Cancer Classification (Binary Classification)
 
 ### 1. Introduction:
+  - Dataset is extracted and be well-processed from tumor images, generating attributes (e.g. cell radius, cell smoothness). 
+  - The task is classifying the target tumor is **malignant or benign**, by inputing instances with **30 attributes**.
+  - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or it can be accessed from sklearn. 
 
-### 2. Task:
+### 2. Preprocess:
+  - The size of dataset is small (**569 instances total**) and there is no missing value. As a warm-up project, this step is skipped.
+  
+### 3. Data Visualization:
+  - The dataset is visualized by pairplot and correlation matrix.
+  - Especially, according the result of pairplot, support vector machine (SVM) can be implemented, since the data is linearly separated.
 
-### 3. Preprocess:
+### 4. Model Tranining:
+  - Using train_test_split to make training and testing set, where their proportions are 0.76 and 0.33 respectively.
+  - Changing test_size and random_state parameter will affect the accuracy of raw model significantly.
 
-### 4. Data Visualization:
+### 5. Model Evaluation:
+  - The dataset is evaluated by confusion matrix. Typically, type 2 error is valued.
+  - For raw model, effect of type 2 error is not significant and its overall accuracy is 0.952.
 
-### 5. Model Tranining:
+### 6. Model Improvement:
+  - Normalization and hyperparameter optimization is implemented in this step.
+  - Normalization makes type 2 error rate sightly increased and reduces overall accuracy (0.883). Therefore, giving equal weight to each attribute is not decent.
+  - Hyperparameter optimization is applied via grid search to tune C and Gamma. However, it makes type 2 error rate sightly increased and reduces overall accuracy (0.920). 
+  - By checking Cs and Gammas of raw model and improved model, best C is found but best Gamma is not in the grid.
 
-### 6. Model Evaluation:
-
-### 7. Model Improvement:
-
-### 8. Conclusion:
+### 7. Conclusion:
+  - The best model is raw model (overall accucacy 0.952). According to Ahmed et al. (2014), model that accuracy above 0.911 can be considered in diagnosis. 
+ 
+### 8. References:
+  - https://www.researchgate.net/publication/271907638_Breast_Cancer_Detection_with_Reduced_Feature_Set
 
 ## 2. Fashion Class Classification
