@@ -19,7 +19,8 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or be accessed from sklearn. 
 
 ### 2. Preprocessing:
-  - The size of dataset is small (**569 instances in total**) and there is no missing value. As a warm-up project, this step is skipped.
+  - The size of dataset is small (**569 instances in total**) and there is no missing value. 
+  - Since the original data is in dictionary-like format, converting it into csv is needed.
   
 ### 3. Data Visualization:
   - The dataset is visualized by pairplot and correlation matrix.
