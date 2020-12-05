@@ -27,7 +27,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 
 ### 4. Model Tranining:
   - Using train_test_split to make training and testing set, where their proportions are 0.76 and 0.33 respectively.
-  - Changing test_size and random_state parameter will affect the accuracy of raw model significantly.
+  - Changing test_size or random_state parameter will affect the accuracy of raw model dramatically.
 
 ### 5. Model Evaluation:
   - The dataset is evaluated by confusion matrix. Typically, type 2 error is valued.
