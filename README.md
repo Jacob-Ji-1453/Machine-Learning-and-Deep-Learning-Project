@@ -7,8 +7,9 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 (https://spinpasta.fandom.com/wiki/Hall_of_Tortured_Souls and https://www.youtube.com/watch?v=WGqD-J_pRvs)
 
 ## Table of Content:
-- Breast Cancer Classification
-- Fashion Class Classification
+- [Breast Cancer Classification](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects#1-breast-cancer-classification-binary-classification)
+- [Fashion Class Classification](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects#2-fashion-class-classification)
+- [User Subscription Classification via App Behavior Analysis](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects#2-user-subscription-classification-via-app-behavior-analysis)
 
 
 ## 1. Breast Cancer Classification (Binary Classification)
@@ -46,4 +47,6 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 ### 8. References:
   - https://www.researchgate.net/publication/271907638_Breast_Cancer_Detection_with_Reduced_Feature_Set
 
-## 2. Fashion Class Classification
+## 2. Fashion Class Classification (Multi-Class Image Classification)
+
+## 3. User Subscription Classification via App Behavior Analysis (Multi-Class Classification)
