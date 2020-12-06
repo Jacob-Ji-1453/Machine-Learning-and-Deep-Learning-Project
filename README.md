@@ -7,7 +7,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 (https://spinpasta.fandom.com/wiki/Hall_of_Tortured_Souls and https://www.youtube.com/watch?v=WGqD-J_pRvs)
 
 ## Table of Content:
-- [Breast Cancer Classification](##1-breast-cancer-classification-binary-classification)
+- [Breast Cancer Classification](#1-breast-cancer-classification-binary-classification)
 - Breast Cancer Classification
 - Fashion Class Classification
 - User Subscription Classification via App Behavior Analysis
