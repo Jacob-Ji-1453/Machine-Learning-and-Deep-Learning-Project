@@ -8,15 +8,15 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 
 ## Table of Content:
 - [Breast Cancer Classification](#1-breast-cancer-classification-binary-classification)
-- Breast Cancer Classification
-- Fashion Class Classification
-- User Subscription Classification via App Behavior Analysis
+- [Fashion Class Classification](#2-fashion-class-classification-multi-class-image-classification)
+- [User Subscription Classification via App Behavior Analysis](#3-user-subscription-classification-via-app-behavior-analysis-binary-classification)
 
 
 ## 1. Breast Cancer Classification (Binary Classification)
 
 ### 1. Introduction:
-  - Dataset is extracted and well-processed from tumor images, generating attributes (e.g. cell radius, cell smoothness). [More details](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects/blob/main/1.%20Breast%20Cancer%20Classification/wdbc.names).
+  - It is crucial to detect cancer in early diagnosis. 
+  - Dataset is extracted and well-processed from tumor images, generating attributes (e.g. cell radius, cell smoothness, etc.). [More details](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects/blob/main/1.%20Breast%20Cancer%20Classification/wdbc.names).
   - The task is classifying the target tumor is **malignant or benign**, by inputing instances with **30 attributes**.
   - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or be accessed from sklearn. 
 
@@ -28,7 +28,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - The dataset is visualized by pairplot and correlation matrix.
   - Especially, according to the result of pairplot, it will be easily imagined that support vector machine (SVM) can be implemented, since the point is linearly separated.
 
-### 4. Model Tranining:
+### 4. Model Building:
   - Using train_test_split to make training and testing set, where their proportions are 0.76 and 0.33 respectively.
   - Changing test_size or random_state parameter will affect the accuracy of raw model dramatically.
 
@@ -53,7 +53,15 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 ## 3. User Subscription Classification via App Behavior Analysis (Binary Classification)
 
 ### 1. Introduction:
+  - When a company releases an app, which it usually has 2 versions, free and premium. Therefore, the marketing aim is maximizing paid users from free users.
+  - Datasets are from a free version app which it collects users' behaviors (e.g. verify phone, product review, etc.) and other pensonal information (e.g. age) in 24 hours. 
+  - The task is classifying that a user would potentially enroll the paid membership or not.
+  - Datasets are avaliable on [Kaggle](https://www.kaggle.com/abhishek2602/appdata10). Since the original dataset is private, more information can be found [here](https://indianaiproduction.com/directing-customers-to-subscription-through-financial-app-behavior-analysis-ml-project).
 
-### 2. Preprocessing:
+### 2. Preprocessing and Exploratory Data Analysis (EDA):
 
 ### 3. Data Visualization:
+
+### 4. Model Building:
+
+### 5. Model Evaluation:
