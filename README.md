@@ -7,6 +7,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 (https://spinpasta.fandom.com/wiki/Hall_of_Tortured_Souls and https://www.youtube.com/watch?v=WGqD-J_pRvs)
 
 ## Table of Content:
+- [Example](#example)
 - Breast Cancer Classification
 - Fashion Class Classification
 - User Subscription Classification via App Behavior Analysis
@@ -49,4 +50,10 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 
 ## 2. Fashion Class Classification (Multi-Class Image Classification)
 
-## 3. User Subscription Classification via App Behavior Analysis (Multi-Class Classification)
+## 3. User Subscription Classification via App Behavior Analysis (Binary Classification)
+
+### 1. Introduction:
+
+### 2. Preprocessing:
+
+### 3. Data Visualization:
