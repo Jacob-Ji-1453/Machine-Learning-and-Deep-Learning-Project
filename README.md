@@ -59,14 +59,12 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - Datasets are avaliable on [Kaggle](https://www.kaggle.com/abhishek2602/appdata10). Since the original dataset is private, more information can be found [here](https://indianaiproduction.com/directing-customers-to-subscription-through-financial-app-behavior-analysis-ml-project).
 
 ### 2. Exploratory Data Analysis (EDA), Feature Engineering and Preprocessing:
-  #### 1. EDA
-   - 
-   - 
-   -
-  
-  #### 2. Feature Engineering
-  
-  #### 3. Preprocessing
+  - EDA:
+
+  - Feature Engineering:
+
+  - Preprocessing:
+
 
 ### 3. Model Building:
 
