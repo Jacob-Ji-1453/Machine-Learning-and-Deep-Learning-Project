@@ -58,10 +58,21 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - The task is classifying that a user would potentially enroll the paid membership or not.
   - Datasets are avaliable on [Kaggle](https://www.kaggle.com/abhishek2602/appdata10). Since the original dataset is private, more information can be found [here](https://indianaiproduction.com/directing-customers-to-subscription-through-financial-app-behavior-analysis-ml-project).
 
-### 2. Preprocessing and Exploratory Data Analysis (EDA):
+### 2. Exploratory Data Analysis (EDA), Feature Engineering and Preprocessing:
+  #### 1. EDA
+   - 
+   - 
+   -
+  
+  #### 2. Feature Engineering
+  
+  #### 3. Preprocessing
 
-### 3. Data Visualization:
+### 3. Model Building:
 
-### 4. Model Building:
+### 4. Model Evaluation:
 
-### 5. Model Evaluation:
+### 5. Model Improvement:
+
+### 6. Conclusion:
+
