@@ -50,6 +50,20 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 
 ## 2. Fashion Class Classification (Multi-Class Image Classification)
 
+### 1. Introduction:
+  - 
+  - **Note**: usually, "regular" machine learning models are **NOT** able to handle image recognition. Finding other models is urgently needed! 
+
+### 2. Data Visualization and Preprocessing:
+
+### 3. Model Building:
+
+### 4. Model Evaluation:
+
+### 5. Model Improvement:
+
+### 6. Conclusion:
+
 ## 3. User Subscription Classification via App Behavior Analysis (Binary Classification)
 
 ### 1. Introduction:
@@ -73,4 +87,6 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 ### 5. Model Improvement:
 
 ### 6. Conclusion:
+
+### 7. References:
 
