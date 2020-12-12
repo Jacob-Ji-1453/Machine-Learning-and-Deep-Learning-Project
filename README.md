@@ -10,6 +10,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 - [Breast Cancer Classification](#1-breast-cancer-classification-binary-classification) (Support Vector Classification)
 - [Fashion Class Classification](#2-fashion-class-classification-multi-class-image-classification)
 - [User Subscription Classification via App Behavior Analysis](#3-user-subscription-classification-via-app-behavior-analysis-binary-classification) (Logistic Regression)
+- [Customer Churn Rate Analysis and Minimization](#4-customer-churn-rate-analysis-and-minimization)
 
 
 ## 1. Breast Cancer Classification (Binary Classification)
@@ -106,3 +107,6 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 ### 7. References:
   - https://indianaiproduction.com/directing-customers-to-subscription-through-financial-app-behavior-analysis-ml-project
   - https://www.kaggle.com/babakgohardani/predicting-user-subscription-logistic-regression
+
+
+## 4. Customer Churn Rate Analysis and Minimization
