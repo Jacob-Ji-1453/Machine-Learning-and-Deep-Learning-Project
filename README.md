@@ -18,7 +18,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 ### 1. Introduction:
   - It is crucial to detect cancer in early diagnosis. 
   - Dataset is extracted and well-processed from tumor images, generating attributes (e.g. cell radius, cell smoothness, etc.). [More details](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects/blob/main/1.%20Breast%20Cancer%20Classification/wdbc.names).
-  - The task is classifying the target tumor is **malignant or benign**, by inputing instances with **30 attributes**.
+  - **Task**: classify the target tumor **malignant or benign**, by inputing instances with **30 attributes**.
   - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or be accessed from sklearn. 
 
 ### 2. Preprocessing:
@@ -52,9 +52,11 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 ## 2. Fashion Class Classification (Multi-Class Image Classification)
 
 ### 1. Introduction:
-  - 
+  - Machine Learning & Deep Learning is able to help retailers to detect and forecast the fashion trend. (i.e. classify a fashion object from a facebook/instagram image)
+  - Handwritten digitized images are from Fashion-MNIST, where we can build a basic ML/DL model to recognize images.
   - Dataset has **784 features**, each represents a pixel value (an integer ranged from 0 to 255) in a 28*28 grayscale image.
-  - Training set and testing set are separate, with 10000 and 60000 instances respectively.
+  - Training set and testing set are separate, with **60000 and 10000 instances** respectively and **10 different labels**.
+  - **Task**: classify a fashion image
   - Datasets are avaliable on [Kaggle](https://www.kaggle.com/zalando-research/fashionmnist). I did not upload datasets since they are too large (>100MB).
   - **Note**: usually, "regular" machine learning models are **NOT** able to handle image recognition. Finding other models is urgently needed! 
 
@@ -74,7 +76,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - When a company releases an app, which it usually has 2 versions, free and premium. Therefore, the marketing aim is maximizing paid users from free users.
   - Datasets are from a free version app which it collects users' behaviors (e.g. verify phone, product review, etc.) and other pensonal information (e.g. age) in 24 hours. 
   - The number of instances are **50000 instances with 12 features**.
-  - The task is classifying that a user would potentially enroll the paid membership or not.
+  - **Task**: classify a user would potentially enroll the paid membership or not.
   - Datasets are avaliable on [Kaggle](https://www.kaggle.com/abhishek2602/appdata10). Since the original dataset is private, more information can be found [here](https://indianaiproduction.com/directing-customers-to-subscription-through-financial-app-behavior-analysis-ml-project).
 
 ### 2. Exploratory Data Analysis (EDA), Feature Engineering and Preprocessing:
