@@ -55,7 +55,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - 
   - Dataset has **784 features**, each represents a pixel value (an integer ranged from 0 to 255) in a 28*28 grayscale image.
   - Training set and testing set are separate, with 10000 and 60000 instances respectively.
-  - Datasets are avaliable on [Kaggle](https://www.kaggle.com/zalando-research/fashionmnist).
+  - Datasets are avaliable on [Kaggle](https://www.kaggle.com/zalando-research/fashionmnist). I did not upload datasets since they are too large (>100MB).
   - **Note**: usually, "regular" machine learning models are **NOT** able to handle image recognition. Finding other models is urgently needed! 
 
 ### 2. Data Visualization and Preprocessing:
