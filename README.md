@@ -52,7 +52,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 ## 2. Fashion Class Classification (Multi-Class Image Classification)
 
 ### 1. Introduction:
-  - Machine Learning & Deep Learning is able to help retailers to detect and forecast the fashion trend. (i.e. by classifying fashion objects via facebook/instagram images)
+  - Machine Learning & Deep Learning is able to help retailers to detect and forecast the fashion trend. (i.e. by classifying fashion objects via facebook/instagram pictures)
   - Handwritten digitized images are from Fashion-MNIST, where we can build a basic ML/DL model to recognize images.
   - Dataset has **784 features**, which each feature represents a pixel value (an integer ranged from 0 to 255) in a 28*28 grayscale image.
   - Training set and testing set are separated, with **60000 and 10000 instances** respectively and **10 different labels**.
@@ -85,9 +85,9 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
     - Correlation Matrices: 3 features are highly correlated with the label: age, minigame, number of screen activities.
   - Feature Engineering:
     - Create "difference" feature to record the time difference between enrolled date and user first open date.
-    - Apply funnel analysis to categorize screen activities (detailed analysis in notebook), recording the number of each categorized activities.
+    - Apply funnel analysis to categorize screen activities (see detailed analysis in notebook), counting the number of categorized activities in each category.
   - Preprocessing:
-    - Apply standardization to avoid extreme numerical features affect prediction dramatically.
+    - Apply standardization to avoid extremely-valued numerical features which may affect prediction dramatically.
 
 ### 3. Model Building:
   - Implement **logistic regression**.
