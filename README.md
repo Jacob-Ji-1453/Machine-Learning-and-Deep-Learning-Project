@@ -6,10 +6,10 @@ Finally, I have found *the hall of tortured souls*, where tormented sprits are e
 Fortunately, sooner or later I will be one of them, embarking a one-way trip to that place and becoming a new *tortured soul*.\
 (https://spinpasta.fandom.com/wiki/Hall_of_Tortured_Souls and https://www.youtube.com/watch?v=WGqD-J_pRvs)
 
-## Table of Content:
-- [Breast Cancer Classification](#1-breast-cancer-classification-binary-classification)
+## Table of Content (Algorithms Specified):
+- [Breast Cancer Classification](#1-breast-cancer-classification-binary-classification) (Support Vector Classification)
 - [Fashion Class Classification](#2-fashion-class-classification-multi-class-image-classification)
-- [User Subscription Classification via App Behavior Analysis](#3-user-subscription-classification-via-app-behavior-analysis-binary-classification)
+- [User Subscription Classification via App Behavior Analysis](#3-user-subscription-classification-via-app-behavior-analysis-binary-classification) (Logistic Regression)
 
 
 ## 1. Breast Cancer Classification (Binary Classification)
@@ -26,14 +26,14 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   
 ### 3. Data Visualization:
   - The dataset is visualized by pairplot and correlation matrix.
-  - Especially, according to the result of pairplot, it will be easily imagined that support vector machine (SVM) can be implemented, since the point is linearly separated.
+  - Especially, according to the result of pairplot, it will be easily imagined that **support vector machine (SVM)** can be implemented, since the point is linearly separated.
 
 ### 4. Model Building:
   - Using train_test_split to make training and testing set, where their proportions are 0.76 and 0.33 respectively.
   - Changing test_size or random_state parameter will affect the accuracy of raw model dramatically.
 
 ### 5. Model Evaluation:
-  - The dataset is evaluated by confusion matrix. Typically, type 2 error is valued.
+  - The model is evaluated by confusion matrix. Typically, type 2 error is valued.
   - For raw model, effect of type 2 error is not significant and its overall accuracy is 0.952.
 
 ### 6. Model Improvement:
@@ -52,6 +52,9 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 
 ### 1. Introduction:
   - 
+  - Dataset has **784 features**, each represents a pixel value (an integer ranged from 0 to 255) in a 28*28 grayscale image.
+  - Training set and testing set are separate, with 10000 and 60000 instances respectively.
+  - Datasets are avaliable on [Kaggle](https://www.kaggle.com/zalando-research/fashionmnist).
   - **Note**: usually, "regular" machine learning models are **NOT** able to handle image recognition. Finding other models is urgently needed! 
 
 ### 2. Data Visualization and Preprocessing:
@@ -69,24 +72,37 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 ### 1. Introduction:
   - When a company releases an app, which it usually has 2 versions, free and premium. Therefore, the marketing aim is maximizing paid users from free users.
   - Datasets are from a free version app which it collects users' behaviors (e.g. verify phone, product review, etc.) and other pensonal information (e.g. age) in 24 hours. 
+  - The number of instances are **50000 instances with 12 features**.
   - The task is classifying that a user would potentially enroll the paid membership or not.
   - Datasets are avaliable on [Kaggle](https://www.kaggle.com/abhishek2602/appdata10). Since the original dataset is private, more information can be found [here](https://indianaiproduction.com/directing-customers-to-subscription-through-financial-app-behavior-analysis-ml-project).
 
 ### 2. Exploratory Data Analysis (EDA), Feature Engineering and Preprocessing:
   - EDA:
-
+    - Feature Distributions (via histograms): user who would like to enroll the membership is aged around 25, plays the minigame, uses premium and gives a like to the app. 
+    - Correlation Matrices: 3 features are highly correlated with the label: age, minigame, number of screen activities.
   - Feature Engineering:
-
+    - Create "difference" feature to record the time difference between enrolled date and user first open date.
+    - Apply funnel analysis to categorize screen activities (detailed analysis in notebook), recording the number of each categorized activities.
   - Preprocessing:
-
+    - Apply standardization to avoid extreme numerical features affect prediction dramatically.
 
 ### 3. Model Building:
-
+  - Implement **logistic regression**.
+  - Use original dataset and standardized dataset to fit the model, where their testing scores are 0.7724 and 0.7727.
+  
 ### 4. Model Evaluation:
+  - Confusion matrix: type 2 error is valued (fn is around 1000).
+  - Cross Validation Score (CVS): there is a tiny difference between accuracy (0.7727) and CVS (0.7664), where the model's variance is low (0.00677).
 
 ### 5. Model Improvement:
+  - The model will be improved via grid search.
+  - Grid search shows that the final score is 0.7726.
+  - Try another grid with small-ranged C may boost the score.
 
 ### 6. Conclusion:
+  - Standardization boosts accuracy (from 0.7724 to 0.7727).
+  - Final model has a decent accuracy (0.7727). 
 
 ### 7. References:
-
+  - https://indianaiproduction.com/directing-customers-to-subscription-through-financial-app-behavior-analysis-ml-project
+  - https://www.kaggle.com/babakgohardani/predicting-user-subscription-logistic-regression
