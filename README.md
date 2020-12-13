@@ -19,7 +19,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - It is crucial to detect cancer in early diagnosis. 
   - Dataset is extracted and well-processed from tumor images, generating attributes (e.g. cell radius, cell smoothness, etc.). [More details](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects/blob/main/1.%20Breast%20Cancer%20Classification/wdbc.names).
   - **Task**: classify the target tumor **malignant or benign**, by inputing instances with **30 attributes**.
-  - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or be accessed from sklearn. 
+  - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or be accessed from sklearn or [Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data). 
 
 ### 2. Preprocessing:
   - The size of dataset is small (**569 instances in total**) and there is no missing value. 
