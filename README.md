@@ -19,7 +19,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - It is crucial to detect cancer in early diagnosis. 
   - Dataset is extracted and well-processed from tumor images, generating attributes (e.g. cell radius, cell smoothness, etc.). [More details](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects/blob/main/1.%20Breast%20Cancer%20Classification/wdbc.names).
   - **Task**: classify the target tumor **malignant or benign**, by inputing instances with **30 attributes**.
-  - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or be accessed from sklearn or [Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data). 
+  - Dataset is available [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) or be accessed from [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html) or [Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data). 
 
 ### 2. Preprocessing:
   - The size of dataset is small (**569 instances in total**) and there is no missing value. 
@@ -27,7 +27,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   
 ### 3. Data Visualization:
   - The dataset is visualized by pairplot and correlation matrix.
-  - Especially, according to the result of pairplot, it will be easily imagined that **support vector machine (SVM)** can be implemented, since the point is linearly separated.
+  - Especially, according to the result of pairplot, it will be easily imagined that **support vector machine (SVM)** can be implemented, since the points in pairplots are linearly separated.
 
 ### 4. Model Building:
   - Using train_test_split to make training and testing set, where their proportions are 0.76 and 0.33 respectively.
