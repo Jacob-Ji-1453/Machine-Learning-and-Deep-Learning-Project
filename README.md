@@ -10,9 +10,9 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 - [Breast Cancer Classification](#1-breast-cancer-classification-binary-classification) (Support Vector Machine)
 - [Fashion Class Classification](#2-fashion-class-classification-multi-class-image-classification) (Sequential Model)
 - [User Subscription Classification via App Behavior Analysis](#3-user-subscription-classification-via-app-behavior-analysis-binary-classification) (Logistic Regression)
-- [Customer Churn Rate Analysis and Minimization](#4-customer-churn-rate-analysis-and-minimization)
-- [E-Signing Loan Classification via Finicial History Analysis](#5-e-signing-loan-classification-via-finicial-history-analysis)
-- [Credit Card Fraud Detection](#6-credit-card-fraud-detection)
+- [Customer Churn Rate Analysis and Minimization](#4-customer-churn-rate-analysis-and-minimization-binary-classification)
+- [E-Signing Loan Classification via Finicial History Analysis](#5-e-signing-loan-classification-via-finicial-history-analysis-binary-classification)
+- [Credit Card Fraud Detection](#6-credit-card-fraud-detection-binary-classification)
 
 
 ## 1. Breast Cancer Classification (Binary Classification)
