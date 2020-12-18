@@ -7,7 +7,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 (https://spinpasta.fandom.com/wiki/Hall_of_Tortured_Souls and https://www.youtube.com/watch?v=WGqD-J_pRvs)
 
 ## Table of Content (Algorithms Specified):
-- [Breast Cancer Classification](#1-breast-cancer-classification-binary-classification) (Support Vector Classification)
+- [Breast Cancer Classification](#1-breast-cancer-classification-binary-classification) (Support Vector Machine)
 - [Fashion Class Classification](#2-fashion-class-classification-multi-class-image-classification) (Sequential Model)
 - [User Subscription Classification via App Behavior Analysis](#3-user-subscription-classification-via-app-behavior-analysis-binary-classification) (Logistic Regression)
 - [Customer Churn Rate Analysis and Minimization](#4-customer-churn-rate-analysis-and-minimization)
