@@ -91,6 +91,9 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - The reason of the misclassification could be difference between "shirt", "pullover" and "coat" is tiny, which they are ambiguous to the model.
 
 ### 5. Conclusion:
+  - By changing epoch, batch size, feature detector size and its dimension, pooling size could affect the final accuracy.
+  - Final accuracy is acceptable, despite the misclassification on "shirt".
+  - By importing new features (e.g. color) or increase image size may boost accuracy. 
 
 ### 6. References:
   - https://www.kdnuggets.com/2018/06/basic-keras-neural-network-sequential-model.html
