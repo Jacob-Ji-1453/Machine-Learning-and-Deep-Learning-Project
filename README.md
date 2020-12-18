@@ -58,7 +58,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - Dataset has **784 features**, which each feature represents a pixel value (an integer ranged from 0 to 255) in a 28*28 grayscale image.
   - Training set and testing set are separated, with **60000 and 10000 instances** respectively and **10 different labels**.
   - **Task**: classify fashion images into **10 labels**. (i.e. 0 for t-shirt/top, 1 for trouser etc.)
-  - Datasets are avaliable on [Kaggle](https://www.kaggle.com/zalando-research/fashionmnist). I did not upload datasets since they are too large (>100MB).
+  - Datasets are avaliable on [Kaggle](https://www.kaggle.com/zalando-research/fashionmnist). I did not upload datasets since they are too large (>100MB). If it is too large to download, data can be imported from [keras](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist/load_data).
   - **Note**: usually, "regular" machine learning models are **NOT** able to handle image recognition. Finding other models is urgently needed! 
 
 ### 2. Data Visualization:
