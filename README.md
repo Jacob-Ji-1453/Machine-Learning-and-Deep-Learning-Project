@@ -8,7 +8,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
 
 ## Table of Content (Algorithms Specified):
 - [Breast Cancer Classification](#1-breast-cancer-classification-binary-classification) (Support Vector Classification)
-- [Fashion Class Classification](#2-fashion-class-classification-multi-class-image-classification)
+- [Fashion Class Classification](#2-fashion-class-classification-multi-class-image-classification) (Sequential Model)
 - [User Subscription Classification via App Behavior Analysis](#3-user-subscription-classification-via-app-behavior-analysis-binary-classification) (Logistic Regression)
 - [Customer Churn Rate Analysis and Minimization](#4-customer-churn-rate-analysis-and-minimization)
 
@@ -60,7 +60,21 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - Datasets are avaliable on [Kaggle](https://www.kaggle.com/zalando-research/fashionmnist). I did not upload datasets since they are too large (>100MB).
   - **Note**: usually, "regular" machine learning models are **NOT** able to handle image recognition. Finding other models is urgently needed! 
 
-### 2. Data Visualization and Preprocessing:
+### 2. Data Visualization:
+  - An image matrix from the training set, with label below, in size of 15*15
+  - Recall labels:
+    - 0 => T-shirt/top
+    - 1 => Trouser
+    - 2 => Pullover
+    - 3 => Dress
+    - 4 => Coat
+    - 5 => Sandal
+    - 6 => Shirt
+    - 7 => Sneaker
+    - 8 => Bag
+    - 9 => Ankle boot
+![Output](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects/blob/main/2.%20Fashion%20Class%20Classification/output.png)
+  - Two datasets are well-processed, containing no twisted images. Hence, there is no need to modify them.
 
 ### 3. Model Building:
 
