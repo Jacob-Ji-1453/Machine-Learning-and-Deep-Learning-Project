@@ -38,10 +38,11 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - For raw model, effect of type 2 error is not significant and its overall accuracy is 0.952.
 
 ### 6. Model Improvement:
-  - Normalization and hyperparameter optimization is implemented in this step.
-  - Normalization makes type 2 error rate sightly increased and reduces overall accuracy (0.883). Therefore, giving equal weight to each attribute is not decent.
-  - Hyperparameter optimization is applied via grid search to tune C and Gamma. However, it makes type 2 error rate sightly increased and reduces overall accuracy (0.920). 
-  - By checking Cs and Gammas of raw model and improved model, best C is found but best Gamma is not in the grid.
+  - Normalization:
+    - Normalization makes type 2 error rate sightly increased and reduces overall accuracy (0.883). Therefore, giving equal weight to each attribute is not decent.
+  - Hyperparameter optimization
+    - Hyperparameter optimization is applied via grid search to tune C and Gamma. However, it makes type 2 error rate sightly increased and reduces overall accuracy (0.920). 
+    - By checking Cs and Gammas of raw model and improved model, best C is found but best Gamma is not in the grid.
 
 ### 7. Conclusion:
   - The best model is raw model (overall accucacy 0.952). According to Ahmed et al. (2014), model that accuracy above 0.911 can be considered in diagnosis. 
@@ -61,7 +62,7 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
   - **Note**: usually, "regular" machine learning models are **NOT** able to handle image recognition. Finding other models is urgently needed! 
 
 ### 2. Data Visualization:
-  - An image matrix from the training set, with label below, in size of 15*15
+  - An image matrix from the training set, with label below, in size of 15*15.
   - Recall labels:
     - 0 => T-shirt/top
     - 1 => Trouser
@@ -74,15 +75,30 @@ Fortunately, sooner or later I will be one of them, embarking a one-way trip to 
     - 8 => Bag
     - 9 => Ankle boot
 ![Output](https://github.com/Jacob-Ji-1453/Machine-Learning-and-Deep-Learning-Projects/blob/main/2.%20Fashion%20Class%20Classification/output.png)
-  - Two datasets are well-processed, containing no twisted images. Hence, there is no need to modify them.
 
 ### 3. Model Building:
-
+  - From other people's work on Kaggle, it is appropriate to build a **convolutional neural network**.
+  - Before building model, normalization is applied to rearrange pixel values between 0 and 1, which makes sure they have the same distribution.
+  - Training set is split to a smaller training set and a validation set, while testing set remains.
+  - Build a convolutional neural network through a **sequential model**, where it consists of an input layer, a pooling layer, 2 hidden layer outputting the final result (an integer from 0 and 9).
+  - Train the model with **50 epochs**, **512 batches**.
+  - Training accuracy is 0.8853 and validation accuracy is 0.8684.
+  
 ### 4. Model Evaluation:
+  - Input testing set to the model, where the testing accuracy is 0.8755 (sightly declines).
+  - Like evaluating "regular" machine learning model, confusion matirx is applied.
+  - Confusion matirx shows that the model is worse-performed in classifying label "shirt" (accuracy 0.65).
+  - The reason of the misclassification could be difference between "shirt", "pullover" and "coat" is tiny, which they are ambiguous to the model.
 
-### 5. Model Improvement:
+### 5. Conclusion:
 
-### 6. Conclusion:
+### 6. References:
+  - https://www.kdnuggets.com/2018/06/basic-keras-neural-network-sequential-model.html
+  - https://towardsdatascience.com/intuitively-create-cnn-for-fashion-image-multi-class-classification-6e31421d5227
+  - https://www.kaggle.com/faressayah/fashion-mnist-classification-using-cnns
+  - https://setosa.io/ev/image-kernels/ (Image Kernel Explanation)
+  - https://www.cs.ryerson.ca/~aharley/vis/conv/flat.html (MaxPooling/Flattening Explanation)
+  - https://becominghuman.ai/image-data-pre-processing-for-neural-networks-498289068258 (Image Normalization Explanation)
 
 ## 3. User Subscription Classification via App Behavior Analysis (Binary Classification)
 
